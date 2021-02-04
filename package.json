@@ -1,0 +1,22 @@
+{
+  "name": "keksoglyad",
+  "private": true,
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "npxrus <npxrus@yandex.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.32.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
